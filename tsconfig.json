@@ -18,20 +18,15 @@
     "noUnusedLocals": true,
     "esModuleInterop": true,
     "paths": {
-      "@logger": ["src/common/logger"],
-      "@entities": ["src/common/entities"],
-      "@config/*": ["src/config/*"],
-      "@common/*": ["src/common/*"],
-      "@utils/*": ["src/common/utils/*"]
+      "@logger": ["src/logger"],
+      "@entities": ["src/entities"],
+      "@web/*": ["src/web/*"],
+      "@utils": ["src/utils"],
+      "@utils/*": ["src/utils/*"]
     },
-    "typeRoots": ["src/types"]
   },
   "include": [
-    "src/**/*",
-    "cpe-loader-monitor.ts",
-    "scheduler-monitor.ts",
-    "product-publication.ts",
-    "documents-replication-monitor.ts"
+    "src/*",
   ],
   "exclude": [
     "node_modules",

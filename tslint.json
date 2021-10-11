@@ -7,7 +7,7 @@
         "no-unused-expression": true
     },
     "rules": {
-        "semicolon": [true, "never"],
+        "semicolon": [true, "always"],
         "eofline": false,
         "quotemark": [
             true,
@@ -18,7 +18,7 @@
             false
         ],
         "ordered-imports": [
-            false
+            true
         ],
         "max-line-length": [
             true,
